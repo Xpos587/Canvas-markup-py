@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    *,
+    *:before,
+    *:after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        cursor: default;
+    }
+
+    :focus,
+    :active {
+        outline: none;
+    }
+
+    a:focus,
+    a:active {
+        outline: none;
+    }
+
+    nav,
+    footer,
+    header,
+    aside {
+        display: block;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        font-size: 100%;
+        line-height: 1;
+        font-size: 14px;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+    }
+
+    input,
+    button,
+    textarea {
+        font-family: inherit;
+        background-color: unset;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    input::-ms-clear {
+        display: none;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+    a,
+    a:visited {
+        text-decoration: none;
+        color: unset;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    ul li {
+        list-style: none;
+    }
+
+    img {
+        vertical-align: top;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: inherit;
+        font-weight: 400;
+    }
+
+    .outline {
+        outline: 1px solid black;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <span class="title">{{ title }}</span>
+    <span class="description">{{ description }}</span>
+</body>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+    body {    
+        color: #fff;
+        font-size: 280px;
+        font-weight: bold;
+        font-family: 'Nabla', cursive;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: linear-gradient(135deg, #FEC163 10%, #DE4313 100%);
+    }
+
+    span {
+        position: absolute;
+        padding: 10px;
+        text-shadow: #00000079 15px 10px;
+    }
+
+    .description {
+        font-size: 100px;
+        position: absolute;
+        left: 5%;
+        bottom: 0;
+        padding: 10px;
+    }
+</style>
+
+</html>
