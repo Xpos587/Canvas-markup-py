@@ -1,7 +1,7 @@
-from canvas_markup import Markup
+import canvas_markup
 import asyncio
 
-markup = Markup()
+markup = canvas_markup.Markup()
 
 # Rendering the file index.ejs and saving it as a png.
 markup.renderFile('./index.jinja2', { 'title': 'Markup', 'description': 'Made with Canvas-Markup©' })
